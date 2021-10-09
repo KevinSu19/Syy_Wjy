@@ -1,0 +1,33 @@
+<view class="content"></view>
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../../image/background.png" mode="aspectFill"></image>
+	<!--页面其它部分-->
+
+<view class="top">
+ <text> </text>
+</view>
+<view class='point1'>
+ <image src='{{one_img}}'></image>
+ <image src='{{two_img}}'></image>
+ <image src='{{three_img}}'></image>
+</view>
+<view class='point2'>
+ <image src='{{four_img}}'></image>
+ <image src='{{five_img}}'></image>
+ <image src='{{six_img}}'></image>
+</view>
+<view class='btn' bindtap='enter'>
+ <text> </text>
+ <text>\n</text>
+ {{msg}}
+</view>
+<view class='award'>{{txt}}</view>
+<text> </text>
+ <text>\n</text>
+ <text>\n</text>
+ <text>\n</text>
+<view class="tc"></view>
+          音乐
+          <text wx:if="{{switchStatus}}">开</text>
+          <text wx:else>关</text>
+          <switch bindchange="switchChange" checked />

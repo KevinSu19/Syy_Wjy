@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/shouye/shouye",
+    "pages/index/index",
+    "pages/duoren_page/duoren_page",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

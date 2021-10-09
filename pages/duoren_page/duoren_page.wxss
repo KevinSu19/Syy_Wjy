@@ -1,0 +1,51 @@
+/* pages/duoren_page/duoren_page.wxss */
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.desk{
+  height:750rpx;
+  width:750rpx;
+}
+.point1 image,.point2 image,.point3 image{
+  height:100rpx;
+  width:100rpx;
+}
+.point1 image{
+  margin-top: 270rpx;
+  margin-left: 180rpx;
+}
+.point2 image{
+  margin-top: 40rpx;
+  margin-left: 180rpx;
+}
+.point3 image{
+  margin-top: 40rpx;
+  margin-left: 180rpx;
+}
+.btn{
+  width: 240rpx;
+  height: 240rpx;
+  border: 10rpx solid rgb(240, 84, 11);
+  background: rgb(240, 84, 11);
+  border-radius: 1000rpx;
+  box-shadow: 8rpx 2rpx 2rpx #747373b2;
+  text-align: center;
+  font-size: 55rpx;
+  margin: 100rpx auto;
+}
+.award{
+  width:75%;
+  height:180rpx;
+  background:rgb(216, 0, 0);
+  border-radius: 20rpx;
+  line-height: 180rpx;
+  text-align: center;
+  font-size: 60rpx;
+  margin: 20rpx auto;
+  box-shadow: 8rpx 2rpx 2rpx #747373b2;
+  border: 10rpx solid rgb(255, 196, 0);
+}
