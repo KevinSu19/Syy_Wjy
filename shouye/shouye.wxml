@@ -1,0 +1,44 @@
+<!--pages/shouye/shouye.wxml-->
+<view class="content"></view>
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../../image/firstpage.png" mode="aspectFill"></image>
+	<!--页面其它部分-->
+
+<view class='btn_touming'>
+	<text> </text>
+</view>                                                                                                                                                                                                                                                                                                                                   
+<view class="layer">
+  <view class='btn_real' bindtap='nextPage1'>
+	  <text> </text>
+	  <text>\n</text>
+	  <text>单人</text>
+	  <text>\n</text>
+	  <text>游戏</text>
+	</view>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+  <view class='btn_real' bindtap='nextPage2'>
+	  <text> </text>
+	  <text>\n</text>
+	  <text>多人</text>
+	  <text>\n</text>
+	  <text>游戏</text>
+	</view>
+</view>
+
+<view class='container'>
+ <button class='button' bindtap='buttonTap' type='primary'>博饼规则</button>
+ <modal title="博饼规则" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+	<view>
+		<image class="image" src="../../image/guize.jpg"mode='aspectFill'></image>
+	</view>
+ </modal>
+</view>
+
+<text> </text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<view class="tc"></view>
+          音乐
+          <text wx:if="{{switchStatus}}">开</text>
+          <text wx:else>关</text>
+          <switch bindchange="switchChange" checked />
