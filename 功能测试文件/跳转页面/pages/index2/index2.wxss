@@ -1,0 +1,5 @@
+text{
+    font-size: 18px;
+    color: #f00;
+    margin-left: 250rpx;  
+    }

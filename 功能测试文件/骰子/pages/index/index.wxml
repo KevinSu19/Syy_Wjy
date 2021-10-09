@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="content"></view>
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../../image/background.png" mode="aspectFill"></image>
+	<!--页面其它部分-->
+    
+<view class='top'>{{txt}}</view>
+<view class='point1'>
+ <image src='{{one_img}}'></image>
+ <image src='{{two_img}}'></image>
+ <image src='{{three_img}}'></image>
+</view>
+<view class='point2'>
+ <image src='{{four_img}}'></image>
+ <image src='{{five_img}}'></image>
+ <image src='{{six_img}}'></image>
+</view>
+<view class='btn' bindtap='enter'>{{msg}}</view>
+

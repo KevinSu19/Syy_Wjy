@@ -1,0 +1,10 @@
+<view>
+      <text>我是一个大可爱</text>>
+</view>
+<view>
+      <image src="../../image/2.jpg"></image>
+</view>
+<view>
+<button bindtap="nextPage">点击这里查看另一个小可爱吧
+</button>
+</view>

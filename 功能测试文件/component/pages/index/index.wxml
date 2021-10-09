@@ -1,0 +1,31 @@
+
+
+<view class='container'>
+
+  <button class='button' bindtap='buttonTap' type='primary'>显示弹窗</button>
+
+  <modal title="博饼规则" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+    <view>
+      <image class="image" src="../../image/guize.jpg"mode='aspectFill'></image>
+    </view>
+    
+  </modal>
+
+</view>
+
+<view class="container" wx:if="{{statu==0}}">
+    <image class="bgImg"
+        src="../../image/guize">
+    </image>
+    <other--widget class="other.widget">
+      <view class='input ID'>
+        <input class="input" name="roomID" placeholder-style="font-size:15px"
+          bindinput="bindKeyInput"/>
+      </view>
+      <button class='in' bindtap="click">确认</button>
+      <view class='tishi'>{{infoMess}}</view>
+      <view class='top'>
+         <view class='top-selected' bindtap='bindShowMsg'>
+            <text>{{num}}</text>
+         </view>
+      </view>
